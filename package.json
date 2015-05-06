@@ -1,0 +1,31 @@
+{
+  "name": "Chess",
+  "version": "1.0.0",
+  "description": "The game of Chess!",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickroberts404/Chess.git"
+  },
+  "keywords": [
+    "chess",
+    "boardgame"
+  ],
+  "author": "Nick Roberts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickroberts404/Chess/issues"
+  },
+  "homepage": "https://github.com/nickroberts404/Chess",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
