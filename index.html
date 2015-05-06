@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ChessApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Chess</title>
+	<script src="src/lib/angular/angular.min.js"></script>
+	<link rel="stylesheet" href="src/lib/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body ng-controller="mainController">
+	<div class="container">
+		<table>
+			<tr ng-repeat="row in chessboard">
+				<td ng-repeat="space in row track by $index">{{space.type}}</td>
+			</tr>
+		</table>
+	</div>
+	<script src="dist/js/app.js"></script>
+</body>
+</html>
