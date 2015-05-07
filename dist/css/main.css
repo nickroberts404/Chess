@@ -5,9 +5,32 @@ table {
   transform: translate(-50%, -50%); }
 
 td {
+  text-align: center;
+  font-size: 12px;
+  font-family: monospace;
   height: 10vh;
   width: 10vh;
   border: 1px solid #fff;
+  cursor: pointer;
   background-color: salmon; }
+
+td:hover {
+  background-color: lightblue; }
+
+.potential-move {
+  opacity: 0.5; }
+
+.selected {
+  border: 2px solid salmon; }
+
+tr:nth-child(odd) td:nth-child(even) {
+  background-color: #D18B47; }
+tr:nth-child(odd) td:nth-child(odd) {
+  background-color: #FFCE9E; }
+
+tr:nth-child(even) td:nth-child(odd) {
+  background-color: #D18B47; }
+tr:nth-child(even) td:nth-child(even) {
+  background-color: #FFCE9E; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,10 @@
+variation 1
+	chessboard = large object, contains game rules and movement logic
+	makes sense because you need access to board to know how far you need to go
+	BUT movement logic will be large, it would be cool if each piece was an object
+
+variation 2
+	have a chessboard and peice objects
+
+variation 3
+	have chessboard object, with a property of 2d array of piece objects

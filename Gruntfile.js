@@ -8,6 +8,10 @@ module.exports = function(grunt) {
 			js: {
 				src: ['src/js/*'],
 				dest: 'dist/js/app.js'
+			},
+			chess_pieces: {
+				src: ['src/js/chess_pieces/*'],
+				dest: 'dist/js/pieces.js'
 			}
 		},
 	sass: {
@@ -22,7 +26,7 @@ module.exports = function(grunt) {
 	},
 	watch: {
 		js: {
-			files: ['src/js/*.js'],
+			files: ['src/js/*.js', 'src/js/**/*'],
 			tasks: ['concat']
 		},
 		css: {

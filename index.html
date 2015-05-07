@@ -11,10 +11,11 @@
 	<div class="container">
 		<table>
 			<tr ng-repeat="row in chessboard">
-				<td ng-repeat="space in row track by $index">{{space.type}}</td>
+				<td ng-class="'player'+square.player+' '+square.state" ng-repeat="square in row" ng-dblclick="killIt(square);" ng-click="read(square);getSpots(square);">{{square.name}}</td>
 			</tr>
 		</table>
 	</div>
+	<script src="dist/js/pieces.js"></script>
 	<script src="dist/js/app.js"></script>
 </body>
 </html>
