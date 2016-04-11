@@ -4,7 +4,7 @@ variation 1
 	BUT movement logic will be large, it would be cool if each piece was an object
 
 variation 2
-	have a chessboard and peice objects
+	have a chessboard and piece objects
 
 variation 3
 	have chessboard object, with a property of 2d array of piece objects
